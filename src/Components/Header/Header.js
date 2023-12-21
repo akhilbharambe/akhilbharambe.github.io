@@ -50,7 +50,7 @@ function Header() {
 
           <Nav className="ml-auto" defaultActiveKey="#home">
 
-          <Nav.Item id="home"  className="fork-btn">
+          <Nav.Item  itemID="home" className="fork-btn">
           <Link to="home">
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
@@ -61,7 +61,7 @@ function Header() {
           </Link>
           </Nav.Item>
 
-           <Nav.Item id="about" className="fork-btn">
+           <Nav.Item  itemID="about" className="fork-btn">
           <Link to="about">
           <Button onClick={()=>{rel(x)}} 
                 target="_blank"
@@ -72,8 +72,8 @@ function Header() {
           </Link>
           </Nav.Item>
 
-          <Nav.Item  id="skills" className="fork-btn">
-          <Link id="skills" to="skills">
+          <Nav.Item className="fork-btn" itemID="skills">
+          <Link  to="skills">
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
                 className="fork-btn-inner"
@@ -83,7 +83,7 @@ function Header() {
           </Link>
           </Nav.Item>
 
-          <Nav.Item id="projects" className="fork-btn">
+          <Nav.Item itemID="projects" className="fork-btn">
           <Link to="projects">
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
@@ -97,7 +97,7 @@ function Header() {
          
 
 
-          <Nav.Item id="contact" className="fork-btn">
+          <Nav.Item itemID="contact" className="fork-btn">
           <Link to="contact">
           <Button onClick={rel}
                 target="_blank"
@@ -111,7 +111,7 @@ function Header() {
          
 
             
-            <Nav.Item className="fork-btn">
+            <Nav.Item itemID="resume" className="fork-btn">
             <Button
                 href="https://drive.google.com/file/d/1plejnTzNZ3_6NWZeBwuM8s9SAXLb6bA3/view?usp=sharing"
                 target="_blank"
