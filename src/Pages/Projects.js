@@ -31,6 +31,7 @@ function Projects() {
               tech="Tech-Stacks"
               techD="Html | Javascript | Css | ReactJS  "
               link="https://travel-agency-sooty.vercel.app/"
+              a="https://github.com/rishabhkatroliya/travel-agency"
             />
           </Col>
           <Col md={6} className="project-card" >
