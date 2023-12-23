@@ -50,7 +50,7 @@ function Header() {
 
           <Nav className="ml-auto" defaultActiveKey="#home">
 
-          <Nav.Item  itemID="home" className="fork-btn">
+          <Nav.Item  id="home" className="fork-btn">
           <Link to="home">
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
