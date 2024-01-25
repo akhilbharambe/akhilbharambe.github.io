@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import {Link} from "react-scroll"
 import Button from "react-bootstrap/Button";
-
+import resume from "../resume/akhil_resume.pdf"
 
 function Header() {
   
@@ -18,6 +18,20 @@ function Header() {
       updateNavbar(false);
     }
   }
+
+  const handleDownload = () => {
+    window.open(
+      "https://drive.google.com/file/d/18PJuXLQYEzQygfAzwmKBm0zk5VFaKEYv/view?usp=sharing","_blank"
+    );
+    
+
+    
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = 'akhil_resume.pdf'; 
+    link.click();
+  }
+
 
   window.addEventListener("scroll", scrollHandler);
   const  x = window.matchMedia("(max-width:1000px)")
@@ -113,9 +127,10 @@ function Header() {
             
             <Nav.Item itemID="resume" className="fork-btn">
             <Button
-                href="https://drive.google.com/file/d/1plejnTzNZ3_6NWZeBwuM8s9SAXLb6bA3/view?usp=sharing"
-                target="_blank"
+                onClick={handleDownload}
+               rel="noreferrer"
                 className="fork-btn-inner"
+                 
               >
                 Resume
               </Button>

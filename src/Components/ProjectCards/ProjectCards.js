@@ -5,11 +5,12 @@ import { BiLinkExternal } from "react-icons/bi";
 import {AiFillGithub} from "react-icons/ai";
 import "./projectcards.css"
 
-function ProjectCards({title,description,tech,techD,link,a}) {
+function ProjectCards({img,title,description,tech,techD,link,a}) {
   return (
     <Card className="project-card-view">
      
       <Card.Body>
+      <Card.Img variant="top" src={img} alt="card-img" />
         <Card.Title>{title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {description}
