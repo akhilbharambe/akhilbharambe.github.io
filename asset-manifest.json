@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.42b6b7b2.css",
-    "main.js": "/static/js/main.1e4f51b8.js",
+    "main.js": "/static/js/main.9215e6bb.js",
+    "static/media/akhil_resume.pdf": "/static/media/akhil_resume.0495567849fea988a285.pdf",
     "static/media/my-avatar.jpg": "/static/media/my-avatar.6fca881fc865dc606592.jpg",
+    "static/media/hiling-travel-agency.jpg": "/static/media/hiling-travel-agency.c704b5a25fc4cc5e75cb.jpg",
+    "static/media/expense.jpg": "/static/media/expense.2ccbcb476d1f8f7f0f47.jpg",
+    "static/media/tic-tac.jpg": "/static/media/tic-tac.8baa68c3fa28f134366c.jpg",
+    "static/media/quizz.jpg": "/static/media/quizz.dd5728202edc09388ab5.jpg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.42b6b7b2.css.map": "/static/css/main.42b6b7b2.css.map",
-    "main.1e4f51b8.js.map": "/static/js/main.1e4f51b8.js.map"
+    "main.9215e6bb.js.map": "/static/js/main.9215e6bb.js.map"
   },
   "entrypoints": [
     "static/css/main.42b6b7b2.css",
-    "static/js/main.1e4f51b8.js"
+    "static/js/main.9215e6bb.js"
   ]
 }
