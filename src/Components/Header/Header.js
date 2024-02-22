@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import {Link} from "react-scroll"
 import Button from "react-bootstrap/Button";
-import resume from "../resume/akhil_resume.pdf"
+import resume from "../resume/Akhil-Bharambe-Developer(MERN).pdf";
 
 function Header() {
   
