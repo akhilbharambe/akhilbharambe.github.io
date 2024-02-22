@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.42b6b7b2.css",
-    "main.js": "/static/js/main.9215e6bb.js",
-    "static/media/akhil_resume.pdf": "/static/media/akhil_resume.0495567849fea988a285.pdf",
+    "main.css": "/static/css/main.55407619.css",
+    "main.js": "/static/js/main.8bcbae2f.js",
+    "static/media/Akhil-Bharambe-Developer(MERN).pdf": "/static/media/Akhil-Bharambe-Developer(MERN).d023be86a35f690c0613.pdf",
     "static/media/my-avatar.jpg": "/static/media/my-avatar.6fca881fc865dc606592.jpg",
     "static/media/hiling-travel-agency.jpg": "/static/media/hiling-travel-agency.c704b5a25fc4cc5e75cb.jpg",
     "static/media/expense.jpg": "/static/media/expense.2ccbcb476d1f8f7f0f47.jpg",
@@ -10,11 +10,11 @@
     "static/media/quizz.jpg": "/static/media/quizz.dd5728202edc09388ab5.jpg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "main.42b6b7b2.css.map": "/static/css/main.42b6b7b2.css.map",
-    "main.9215e6bb.js.map": "/static/js/main.9215e6bb.js.map"
+    "main.55407619.css.map": "/static/css/main.55407619.css.map",
+    "main.8bcbae2f.js.map": "/static/js/main.8bcbae2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b6b7b2.css",
-    "static/js/main.9215e6bb.js"
+    "static/css/main.55407619.css",
+    "static/js/main.8bcbae2f.js"
   ]
 }
